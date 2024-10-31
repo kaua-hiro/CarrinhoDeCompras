@@ -1,0 +1,95 @@
+/* Estilo geral do body */
+body {
+    background-color: #141414;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo dos títulos */
+h1, h2 {
+    text-align: center;
+    color: #8c00ff;
+    font-size: 1.5em;
+}
+
+/* Estilo do campo de busca */
+input[type="text"] {
+    width: calc(100% - 160px);
+    padding: 8px;
+    margin: 10px 0;
+    border: 2px solid #8c00ff;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+}
+
+/* Botões básicos */
+button {
+    padding: 8px 16px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8c00ff;
+    color: #141414;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #8c00ff;
+}
+
+/* Estilo dos produtos */
+.produto {
+    border: 1px solid #8c00ff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Imagem do produto */
+.produto img {
+    width: 80px;
+    height: auto; 
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+/* Estilos dos produtos no carrinho */
+.carrinho-produto img, .busca-produto img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.carrinho-produto h3, .busca-produto h3 {
+    font-size: 1rem;
+    color: #8c00ff;
+}
+
+.carrinho-produto p, .busca-produto p {
+    font-size: 0.9rem;
+    color: #c2c2c2;
+}
+
+/* Containers de produtos e carrinho */
+#produtosContainer, #carrinhoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#valorTotalCarrinho {
+    text-align: center;
+    font-size: 1.2em;
+    color: #8c00ff;
+    margin-top: 20px;
+}
