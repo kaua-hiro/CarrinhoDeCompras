@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Inicializa os ícones
     lucide.createIcons();
-    
+    // Testando a atualização
     // --- ESTADO DA APLICAÇÃO ---
     const state = {
         products: [
