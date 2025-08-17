@@ -42,7 +42,7 @@ Após anos de experiência e aprendizado, decidi revisitar este projeto e transf
 - Ícones informativos usando Lucide Icons
 - Estados visuais claros para diferentes situações
 
-## 🌟 Principais Funcionalidades Atuais
+## 🌟 Principais Funcionalidades Atuais.
 
 - **Catálogo de Produtos**: Exibição organizada dos produtos de hardware com informações detalhadas
 - **Busca Dinâmica**: Filtro de produtos em tempo real conforme o usuário digita
